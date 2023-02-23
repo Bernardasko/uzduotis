@@ -8,14 +8,17 @@
     <title>VilniusCoodingSchool</title>
 </head>
 <body>
-    <img src="https://www.vilniuscoding.lt/wp-content/themes/vcs/assets/img/logo-01.svg" alt="VilniusCoodingSchool">
+    <section><a href="">
+    <img src="https://www.vilniuscoding.lt/wp-content/themes/vcs/assets/img/logo-01.svg" alt="VilniusCoodingSchool"></a>
     <h2>About</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, deleniti, sed, iste excepturi molestiae sapiente culpa vel fugiat consequuntur temporibus corrupti error! Impedit beatae cumque, eligendi veniam laudantium eum architecto.</p>
+   </section>
+   <section>
     <h2>Projects</h2>
     <ul>
         <li>Featured
             <ul>
-                <li>Project 1</li>
+                <li><a href="#">Project 1</a></li>
                 <li>Project 2</li>
             </ul>
         </li>
@@ -28,8 +31,10 @@
             </ul>
         </li>
     </ul>
+</section>
+<section>
     <h2>Festival Schedules</h2>
-    <table>
+    <table border>
         <tr>
             <th>Time</th>
             <th>Topic</th>
@@ -43,23 +48,33 @@
             <td>Keynote</td>
         </tr>
     </table>
+</section>
 
     <h2>Sign Up!</h2>
     <form>
-    <label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Enter your Name"><br>
-    <label for="email">Email:</label><input type="text" id="email" name="email" placeholder="Enter your Email"><br>
+        <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your Name">
+    </div>
+    <div>
+    <label for="email">Email:</label><input type="text" id="email" name="email" placeholder="Enter your Email">
+    </div>
+    <div>
     <label for="location">Location:</label>
     <select name="location" id="location">
         <option value="choose city">Choose city</option>
     </select>
-    <br>
+</div>
+<div>
     <label for="gender">Gender:</label>
     <label><input id="female" type="radio" name="female-male" value="female"> Female</label>
     <label><input id="male" type="radio" name="female-male" value="male"> Male</label>
-    <br>
-    <label for="message">Message:<br>
+</div>
+<div>
+    <label for="message">Message:
         <textarea id="message" name="message" rows="3" cols="18" placeholder="Your message"></textarea>
     </label>
+</div>
     </form>
 </body>
 </html>
